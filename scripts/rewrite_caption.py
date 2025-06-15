@@ -102,7 +102,7 @@ def process_video(txt_file_path_list, output_json_path_list):
         txt_file_path_list = [txt_file_path_list]
         output_json_path_list = [output_json_path_list]
 
-    model_name = "Qwen/Qwen3-14B"
+    model_name = "/kaiwu_vepfs/kaiwu/finn/MODELS/Qwen/Qwen3-14B/"
 
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
